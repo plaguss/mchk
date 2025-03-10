@@ -1,0 +1,2 @@
+# mchk
+Diary of training
