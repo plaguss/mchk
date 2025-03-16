@@ -9,7 +9,7 @@ description: "This page was built using the Blowfish theme for Hugo."
     {{< icon "triangle-exclamation" >}}
   </span> -->
   <span class="flex items-center justify-between grow dark:text-neutral-300">
-    <span class="prose dark:prose-invert">Need some motivation? watch the video. Ready? &rarr; </span>
+    <!-- <span class="prose dark:prose-invert">Need some motivation? watch the video. Ready? &rarr; </span> -->
     <a 
     href="/wods" 
     id="switch-layout-button" 
@@ -24,5 +24,3 @@ description: "This page was built using the Blowfish theme for Hugo."
 <!-- ```node
 npx blowfish-tools
 ```   -->
-
-{{< youtubeLite id="mklNYx-a6zs" label="Blowfish-tools demo" >}}
