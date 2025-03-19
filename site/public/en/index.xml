@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mchk</title>
+    <link>http://localhost:43273/en/</link>
+    <description>Recent content on mchk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 mchk</copyright>
+    <atom:link href="http://localhost:43273/en/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

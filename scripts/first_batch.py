@@ -20,7 +20,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     folder: Path = args.input
-    cmds = []
+
     for file in folder.iterdir():
         print("Run with: ", file)
         datestr = file.stem.replace("wod-", "")
@@ -34,13 +34,3 @@ if __name__ == "__main__":
             print("ERR", err)
         else:
             pass
-            # print("CODE", result.stdout.decode("utf-8"))
-        # print("RESU", result.stdout.decode("utf-8"))
-
-        cmds.append(cmd)
-    # print("CMD", cmd)
-    # print("FILES", list(folder.iterdir()))
-    # print("out", args.output / str(file))
-    # print("FILE", file)
-    # result = subprocess.run(cmds[5], capture_output=True, check=True)
-    # print("RESU", result.stdout.decode("utf-8"))

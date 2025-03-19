@@ -2,25 +2,26 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "MCHK"
+title = "mchk"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
+  headline = "A weekly CrossFit training program"
+  description = "A weekly CrossFit training program"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
+[params.author]
+  name = "mchk"
+  # email = "your.email@gmail.com"
+  image = "img/blowfish_logo.png"
+  imageQuality = 96
+  headline = "A weekly CrossFit training program"
+  # bio = "A little bit about you"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },

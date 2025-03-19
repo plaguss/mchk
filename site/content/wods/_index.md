@@ -9,7 +9,7 @@ cascade:
 ---
 
 {{< lead >}}
-History MCHK wods.
+History of `mchk` wods.
 {{< /lead >}}
 
 Enter on a given day to see the training. In case of doubt with a movement, you can go to the [movement list](../movements/) and find an explanatory video.
