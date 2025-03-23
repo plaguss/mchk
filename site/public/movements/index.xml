@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CrossFit Movements on mchk</title>
-    <link>http://localhost:46279/movements/</link>
+    <link>http://localhost:42229/movements/</link>
     <description>Recent content in CrossFit Movements on mchk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 mchk</copyright>
-    <atom:link href="http://localhost:46279/movements/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:42229/movements/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

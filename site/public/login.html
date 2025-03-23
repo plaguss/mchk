@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f9;
+    }
+    .login-container {
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: white;
+      width: 300px;
+    }
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="password" id="password" placeholder="Enter Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p id="errorMessage" style="color: red; display: none;">Incorrect password!</p>
+  </div>
+
+  <script>
+    // Define the password (in real-world, you should not hardcode passwords like this)
+    const storedPassword = "your-secret-password"; // Change this to your desired password
+
+    // Handle the login form submission
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Get the inputted password
+      const password = document.getElementById('password').value;
+
+      // Check if the password matches the stored password
+      if (password === storedPassword) {
+        // Store a "logged in" status in localStorage
+        localStorage.setItem('loggedIn', 'true');
+        // Redirect to a protected page or homepage after login
+        window.location.href = '/'; // Or change this to your protected page
+      } else {
+        // Show an error message
+        document.getElementById('errorMessage').style.display = 'block';
+      }
+    });
+
+    // Check if the user is already logged in
+    if (localStorage.getItem('loggedIn') === 'true') {
+      window.location.href = '/'; // Redirect to the homepage or protected page
+    }
+  </script>
+</body>
+</html>

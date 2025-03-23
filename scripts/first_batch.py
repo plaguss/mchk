@@ -25,10 +25,18 @@ if __name__ == "__main__":
         print("Run with: ", file)
         datestr = file.stem.replace("wod-", "")
         date = dt.datetime.strptime(datestr, "%d-%m-%y").date()
-        new_filename = f"wod-{date.strftime("%d-%m-%y")}.md"
-        # print(file, new_filename)
+        new_filename = f"wod-{date.strftime("%d-%m-%y")}"
         new_filename = str(args.output / new_filename)
-        cmd = ["wod", new_filename, "--wodfile", str(file)]
+        cmd = [
+            "wod",
+            new_filename,
+            "--wodfile",
+            str(file),
+            "--file-date",
+            date.strftime("%Y-%m-%d"),  # Adds the date to markdown as YYYY-MM-DD
+            "--languages",
+            "en,es" # Generate english and spanish filenames
+        ]
         result = subprocess.run(cmd, capture_output=True, check=False)
         if err := result.stderr.decode("utf-8"):
             print("ERR", err)
