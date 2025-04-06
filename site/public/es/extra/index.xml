@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wods on mchk</title>
-    <link>http://localhost:42229/es/extra/</link>
+    <link>http://localhost:1313/es/extra/</link>
     <description>Recent content in Wods on mchk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2025 mchk</copyright>
-    <lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:42229/es/extra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/es/extra/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>extra-13-04-25</title>
-      <link>http://localhost:42229/es/extra/wod-extra-13-04-25/</link>
+      <link>http://localhost:1313/es/extra/wod-extra-13-04-25/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42229/es/extra/wod-extra-13-04-25/</guid>
+      <guid>http://localhost:1313/es/extra/wod-extra-13-04-25/</guid>
       <description>Workout for the day, extra-13-04-25.</description>
       
     </item>
     
     <item>
       <title>extra-06-04-25</title>
-      <link>http://localhost:42229/es/extra/wod-extra-06-04-25/</link>
+      <link>http://localhost:1313/es/extra/wod-extra-06-04-25/</link>
       <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42229/es/extra/wod-extra-06-04-25/</guid>
+      <guid>http://localhost:1313/es/extra/wod-extra-06-04-25/</guid>
       <description>Workout for the day, extra-06-04-25.</description>
       
     </item>
     
     <item>
       <title>extra-30-03-25</title>
-      <link>http://localhost:42229/es/extra/wod-extra-30-03-25/</link>
+      <link>http://localhost:1313/es/extra/wod-extra-30-03-25/</link>
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42229/es/extra/wod-extra-30-03-25/</guid>
+      <guid>http://localhost:1313/es/extra/wod-extra-30-03-25/</guid>
       <description>Workout for the day, extra-30-03-25.</description>
       
     </item>
     
     <item>
       <title>extra-24-03-25</title>
-      <link>http://localhost:42229/es/extra/wod-extra-24-03-25/</link>
+      <link>http://localhost:1313/es/extra/wod-extra-24-03-25/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42229/es/extra/wod-extra-24-03-25/</guid>
+      <guid>http://localhost:1313/es/extra/wod-extra-24-03-25/</guid>
       <description>Workout for the day, extra-24-03-25.</description>
       
     </item>
