@@ -20,9 +20,6 @@ wod "/home/agustin/github_repos/mchk/site/content/extra/wod-extra-23-03-25" \
     --languages "en,es"
 ```
 
-wod "/home/agustin/github_repos/mchk/site/content/wods/wod-07-04-25" \
-    --wodfile "/home/agustin/github_repos/mchk/wods/wod-06-04-25.wod" \
-    --languages "en,es"
 
 ## Guide to deploy the site
 
