@@ -157,7 +157,7 @@ class WodMessage:
             print("Error while running `wod`:\n", err)
             return
         log("`wod` executed succesfully")
-        self.commit_and_push(repo_path)
+        await self.commit_and_push(repo_path)
 
     def write_wod_file(self, path: str):
         with open(path, "w") as f:
