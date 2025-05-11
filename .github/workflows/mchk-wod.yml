@@ -26,7 +26,16 @@ jobs:
           # Install a specific version of uv.
           version: "0.7.3"
           enable-cache: true
+
+     - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
       
+      - name: Install wod CLI tool
+        run: |
+          cargo install --git https://github.com/plaguss/wod
+
       - name: Configure Git
         run: |
           git config --global user.name "GitHub Actions Bot"
@@ -40,6 +49,3 @@ jobs:
             --repo-path "." \
             --wod-path "wods" \
             --site-content-path "site/content/wods"
-        env:
-          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
-          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
