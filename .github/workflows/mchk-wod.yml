@@ -2,8 +2,9 @@ name: WOD Automation
 
 on:
   schedule:
-    # Run daily at 8:00 AM UTC
-    - cron: '0 8 * * *'
+    # Run at 6 PM Madrid time (UTC+2 in summer, UTC+1 in winter)
+    # This cron expression is for 4 PM UTC (6 PM Madrid in winter)
+    - cron: '0 16 * * *'
   
   # Allow manual triggering
   workflow_dispatch:
@@ -14,21 +15,17 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-      
-      - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/checkout@v4
         with:
-          python-version: '3.12'
-      
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install discord.py GitPython
-          
-          # Install your WOD CLI tool
-          # Replace with the actual installation steps for your CLI tool
-          # Example: pip install wod-cli
+          # Required to later push changes back to the repository
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          # Install a specific version of uv.
+          version: "0.7.3"
+          enable-cache: true
       
       - name: Configure Git
         run: |
