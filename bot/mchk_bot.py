@@ -17,7 +17,6 @@ uv run bot/mchk_bot.py \
 import argparse
 import datetime
 import enum
-import os
 import subprocess
 from dataclasses import dataclass
 from pathlib import Path
@@ -158,9 +157,9 @@ class WodMessage:
             print("Error while running `wod`:\n", err)
             return
         log("`wod` executed succesfully")
-        # self.commit_and_push(repo_name)
+        self.commit_and_push(repo_path)
 
-    def write_wod_file(self, path: Path):
+    def write_wod_file(self, path: str):
         with open(path, "w") as f:
             f.write(self.content)
         log(f"File written at: {path}")
