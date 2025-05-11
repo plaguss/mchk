@@ -15,8 +15,15 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--input", type=Path, required=True, help="Input folder to grab the files.")
-    parser.add_argument("--output", type=Path, required=True, help="Folder where the results should be placed.")
+    parser.add_argument(
+        "--input", type=Path, required=True, help="Input folder to grab the files."
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        required=True,
+        help="Folder where the results should be placed.",
+    )
     args = parser.parse_args()
 
     folder: Path = args.input
@@ -25,7 +32,7 @@ if __name__ == "__main__":
         print("Run with: ", file)
         datestr = file.stem.replace("wod-", "")
         date = dt.datetime.strptime(datestr, "%d-%m-%y").date()
-        new_filename = f"wod-{date.strftime("%d-%m-%y")}"
+        new_filename = f"wod-{date.strftime('%d-%m-%y')}"
         new_filename = str(args.output / new_filename)
         cmd = [
             "wod",
@@ -35,7 +42,7 @@ if __name__ == "__main__":
             "--file-date",
             date.strftime("%Y-%m-%d"),  # Adds the date to markdown as YYYY-MM-DD
             "--languages",
-            "en,es" # Generate english and spanish filenames
+            "en,es",  # Generate english and spanish filenames
         ]
         result = subprocess.run(cmd, capture_output=True, check=False)
         if err := result.stderr.decode("utf-8"):
