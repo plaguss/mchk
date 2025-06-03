@@ -3,386 +3,450 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/es/wods/wod-11-05-25/</loc>
-    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:45639/es/wods/wod-02-06-25/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-11-05-25/"
+      href="http://localhost:45639/wods/wod-02-06-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-11-05-25/"
+      href="http://localhost:45639/es/wods/wod-02-06-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/</loc>
-    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:45639/es/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/"
+      href="http://localhost:45639/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/"
+      href="http://localhost:45639/es/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/</loc>
-    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:45639/es/wods/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/"
+      href="http://localhost:45639/wods/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/"
+      href="http://localhost:45639/es/wods/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-28-04-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-30-05-25/</loc>
+    <lastmod>2025-05-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:45639/wods/wod-30-05-25/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:45639/es/wods/wod-30-05-25/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:45639/es/wods/wod-25-05-25/</loc>
+    <lastmod>2025-05-24T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:45639/wods/wod-25-05-25/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:45639/es/wods/wod-25-05-25/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:45639/es/wods/wod-18-05-25/</loc>
+    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:45639/wods/wod-18-05-25/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:45639/es/wods/wod-18-05-25/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:45639/es/wods/wod-11-05-25/</loc>
+    <lastmod>2025-05-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:45639/wods/wod-11-05-25/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:45639/es/wods/wod-11-05-25/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:45639/es/wods/wod-28-04-25/</loc>
     <lastmod>2025-04-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-28-04-25/"
+      href="http://localhost:45639/wods/wod-28-04-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-28-04-25/"
+      href="http://localhost:45639/es/wods/wod-28-04-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-21-04-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-21-04-25/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-21-04-25/"
+      href="http://localhost:45639/wods/wod-21-04-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-21-04-25/"
+      href="http://localhost:45639/es/wods/wod-21-04-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-14-04-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-14-04-25/</loc>
     <lastmod>2025-04-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-14-04-25/"
+      href="http://localhost:45639/wods/wod-14-04-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-14-04-25/"
+      href="http://localhost:45639/es/wods/wod-14-04-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-07-04-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-07-04-25/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-07-04-25/"
+      href="http://localhost:45639/wods/wod-07-04-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-07-04-25/"
+      href="http://localhost:45639/es/wods/wod-07-04-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-24-03-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-24-03-25/</loc>
     <lastmod>2025-03-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-24-03-25/"
+      href="http://localhost:45639/wods/wod-24-03-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-24-03-25/"
+      href="http://localhost:45639/es/wods/wod-24-03-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/extra/wod-extra-13-04-25/</loc>
+    <loc>http://localhost:45639/es/extra/wod-extra-13-04-25/</loc>
     <lastmod>2025-03-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/extra/wod-extra-13-04-25/"
+      href="http://localhost:45639/extra/wod-extra-13-04-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/extra/wod-extra-13-04-25/"
+      href="http://localhost:45639/es/extra/wod-extra-13-04-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/extra/</loc>
+    <loc>http://localhost:45639/es/extra/</loc>
     <lastmod>2025-03-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/extra/"
+      href="http://localhost:45639/extra/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/extra/"
+      href="http://localhost:45639/es/extra/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/extra/wod-extra-06-04-25/</loc>
+    <loc>http://localhost:45639/es/extra/wod-extra-06-04-25/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/extra/wod-extra-06-04-25/"
+      href="http://localhost:45639/extra/wod-extra-06-04-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/extra/wod-extra-06-04-25/"
+      href="http://localhost:45639/es/extra/wod-extra-06-04-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/extra/wod-extra-30-03-25/</loc>
+    <loc>http://localhost:45639/es/extra/wod-extra-30-03-25/</loc>
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/extra/wod-extra-30-03-25/"
+      href="http://localhost:45639/extra/wod-extra-30-03-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/extra/wod-extra-30-03-25/"
+      href="http://localhost:45639/es/extra/wod-extra-30-03-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/extra/wod-extra-24-03-25/</loc>
+    <loc>http://localhost:45639/es/extra/wod-extra-24-03-25/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/extra/wod-extra-24-03-25/"
+      href="http://localhost:45639/extra/wod-extra-24-03-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/extra/wod-extra-24-03-25/"
+      href="http://localhost:45639/es/extra/wod-extra-24-03-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-10-03-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-10-03-25/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-10-03-25/"
+      href="http://localhost:45639/wods/wod-10-03-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-10-03-25/"
+      href="http://localhost:45639/es/wods/wod-10-03-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-24-02-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-24-02-25/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-24-02-25/"
+      href="http://localhost:45639/wods/wod-24-02-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-24-02-25/"
+      href="http://localhost:45639/es/wods/wod-24-02-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-17-02-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-17-02-25/</loc>
     <lastmod>2025-02-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-17-02-25/"
+      href="http://localhost:45639/wods/wod-17-02-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-17-02-25/"
+      href="http://localhost:45639/es/wods/wod-17-02-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-10-02-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-10-02-25/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-10-02-25/"
+      href="http://localhost:45639/wods/wod-10-02-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-10-02-25/"
+      href="http://localhost:45639/es/wods/wod-10-02-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-03-02-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-03-02-25/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-03-02-25/"
+      href="http://localhost:45639/wods/wod-03-02-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-03-02-25/"
+      href="http://localhost:45639/es/wods/wod-03-02-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-13-01-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-13-01-25/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-13-01-25/"
+      href="http://localhost:45639/wods/wod-13-01-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-13-01-25/"
+      href="http://localhost:45639/es/wods/wod-13-01-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-07-01-25/</loc>
+    <loc>http://localhost:45639/es/wods/wod-07-01-25/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-07-01-25/"
+      href="http://localhost:45639/wods/wod-07-01-25/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-07-01-25/"
+      href="http://localhost:45639/es/wods/wod-07-01-25/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-30-12-24/</loc>
+    <loc>http://localhost:45639/es/wods/wod-30-12-24/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-30-12-24/"
+      href="http://localhost:45639/wods/wod-30-12-24/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-30-12-24/"
+      href="http://localhost:45639/es/wods/wod-30-12-24/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-23-12-24/</loc>
+    <loc>http://localhost:45639/es/wods/wod-23-12-24/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-23-12-24/"
+      href="http://localhost:45639/wods/wod-23-12-24/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-23-12-24/"
+      href="http://localhost:45639/es/wods/wod-23-12-24/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/wods/wod-09-12-24/</loc>
+    <loc>http://localhost:45639/es/wods/wod-09-12-24/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/wods/wod-09-12-24/"
+      href="http://localhost:45639/wods/wod-09-12-24/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/wods/wod-09-12-24/"
+      href="http://localhost:45639/es/wods/wod-09-12-24/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/es/movements/</loc>
+    <loc>http://localhost:45639/es/movements/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/movements/"
+      href="http://localhost:45639/movements/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/movements/"
+      href="http://localhost:45639/es/movements/"
     />
   </url>
 </urlset>
